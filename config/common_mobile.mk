@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
     Profiles \
     Seedvault \
     TrebuchetQuickStep \
-    WeatherProvider
+    WeatherProvider \
+    Lawnchair
 
     # AudioFX 
     #  Jelly 
