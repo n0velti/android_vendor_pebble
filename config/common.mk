@@ -1,7 +1,7 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
-PRODUCT_BRAND ?= LineageOS
+PRODUCT_BRAND ?= PebbleOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -110,11 +110,13 @@ PRODUCT_PACKAGES += \
     Terminal
 
 # Lineage packages
+#EA
 PRODUCT_PACKAGES += \
     LineageParts \
     LineageSettingsProvider \
-    LineageSetupWizard \
     Updater
+ #   LineageSetupWizard \
+    
 
 # Themes
 PRODUCT_PACKAGES += \
