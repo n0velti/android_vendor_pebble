@@ -24,16 +24,18 @@ PRODUCT_PACKAGES += \
 
 # Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX \
     Backgrounds \
-    Eleven \
     Etar \
-    Jelly \
     LockClock \
     Profiles \
     Seedvault \
     TrebuchetQuickStep \
     WeatherProvider
+
+    # AudioFX 
+    #  Jelly 
+     #   Eleven 
+
 
 # Accents
 PRODUCT_PACKAGES += \
