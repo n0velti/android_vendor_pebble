@@ -18,9 +18,12 @@ PRODUCT_PACKAGES += \
 
 # AOSP packages
 PRODUCT_PACKAGES += \
-    Email \
     ExactCalculator \
-    Exchange2
+    Exchange2 
+    
+
+#Email
+
 
 # Lineage packages
 PRODUCT_PACKAGES += \
@@ -29,14 +32,19 @@ PRODUCT_PACKAGES += \
     LockClock \
     Profiles \
     Seedvault \
-    TrebuchetQuickStep \
     WeatherProvider \
-    Launcher3
+    TrebuchetQuickStep 
 
+  
+    #Lawnchair 
     # AudioFX 
     #  Jelly 
      #   Eleven 
+#TrebuchetQuickStep
 
+#PebbleOs Packages
+PRODUCT_PACKAGES += \
+        Signal
 
 # Accents
 PRODUCT_PACKAGES += \
