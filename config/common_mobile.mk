@@ -19,11 +19,8 @@ PRODUCT_PACKAGES += \
 # AOSP packages
 PRODUCT_PACKAGES += \
     ExactCalculator \
-    Exchange2 
-    
-
-#Email
-
+    Exchange2 \
+    Bluemail
 
 # Lineage packages
 PRODUCT_PACKAGES += \
@@ -35,16 +32,11 @@ PRODUCT_PACKAGES += \
     WeatherProvider \
     TrebuchetQuickStep 
 
-  
-    #Lawnchair 
-    # AudioFX 
-    #  Jelly 
-     #   Eleven 
-#TrebuchetQuickStep
 
 #PebbleOs Packages
 PRODUCT_PACKAGES += \
-        Signal
+        Signal 
+     
 
 # Accents
 PRODUCT_PACKAGES += \
